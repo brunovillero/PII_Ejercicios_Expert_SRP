@@ -4,6 +4,8 @@ namespace Expert_SRP
 {
     class Program
     {
+        //Clase Alfajor es la clase experta en sus datos
+        //Clase Kiosko no cumple SRP debido a que tiene 2 razones de cambio y no una como indica el principio
         static void Main(string[] args)
         {
             Alfajor a = new Alfajor(10, 8.5);
