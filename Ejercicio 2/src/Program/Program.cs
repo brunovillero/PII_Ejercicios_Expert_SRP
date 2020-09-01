@@ -20,9 +20,9 @@ namespace SRP
             
             Libro libro1 = new Libro("Design Patterns","Erich Gamma & Others","001-034");
             Libro libro2 = new Libro("Pro C#","Troelsen","001-035");
-            libro1.AlmacenarLibro("A","7");
-            libro2.AlmacenarLibro("B","3");
-
+            
+            Seccion seccionLibro1 = new Seccion(libro1, "A", "7"); // libro1.AlmacenarLibro("A","7");
+            Seccion seccionLibro2 = new Seccion(libro1, "B", "3"); // libro2.AlmacenarLibro("B","3");
         }
     }
 }
