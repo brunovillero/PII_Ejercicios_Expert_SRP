@@ -7,8 +7,12 @@ namespace SRP
     {
         static void Main(string[] args)
         {
-            //La clase libro cumple con expert
-            //Debido a que contiene la informacion relacionada a los libros
+            //La clase libro no cumple con expert
+            //Debido a que contiene informacion relacionada a los libros 
+            //pero tambien contiene informacion relacionada a una seccion en una biblioteca
+            //lo correcto es que contenga solo informacion relacionada a un libro
+
+
             //No cumple SRP debido a que no tiene sentido que el libro pueda almacenarse
             //Quizas cambie la forma en que se almacena el libro y 
             //en ese caso es mejor mover esa responsabilidad a una clase experta en saber almacenar libros
