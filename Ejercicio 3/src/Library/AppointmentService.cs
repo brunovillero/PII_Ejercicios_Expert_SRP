@@ -5,6 +5,12 @@ namespace Library
 {
     public class AppointmentService
     {
+        //Considero que la clase cumple con expert, contiene toda la informacion relacionado un appointment
+
+        //Pero no cumple con SRP, contiene una funcionalidad dentro de createAppointment para validar cada uno de los parametros
+        //Esa validacion la podriamos extraer a una clase que se encargue de generar el mensaje adecuado
+        //De esa forma el codigo queda mas limpio y facil de cambiar
+
         public static string CreateAppointment(string name, string id, string phoneNumber, DateTime date, string appoinmentPlace, string doctorName)
         {
             StringBuilder stringBuilder = new StringBuilder("Scheduling appointment...\n");
