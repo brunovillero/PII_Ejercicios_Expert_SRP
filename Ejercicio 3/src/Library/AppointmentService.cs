@@ -5,7 +5,7 @@ namespace Library
 {
     public class AppointmentService
     {
-        //Considero que la clase cumple con expert, contiene toda la informacion relacionado un appointment
+        //Considero que la clase cumple con expert, contiene toda la informacion relacionado para poder crear un appointment
 
         //Pero no cumple con SRP, contiene una cantidad de parametros que estan relacionados a objetos que podemos crear
         //Para asi distribuir las responsabilidades entre el programa
