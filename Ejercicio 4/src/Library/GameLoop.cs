@@ -1,5 +1,6 @@
 using System;
 using System.Threading;
+using System.Text;
 
 namespace PII_Game_Of_Life
 {
@@ -17,7 +18,7 @@ namespace PII_Game_Of_Life
                 {
                     for (int x = 0; x<width; x++)
                     {
-                        if(b[x,y])
+                        if(initialBoard[x,y])
                         {
                             s.Append("|X|");
                         }

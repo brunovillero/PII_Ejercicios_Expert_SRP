@@ -53,6 +53,7 @@ namespace PII_Game_Of_Life
             }
             currentBoard = cloneboard;
             cloneboard = new bool[boardWidth, boardHeight];
+            return cloneboard;
         }
     }
 }
